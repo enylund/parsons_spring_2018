@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Core Interaction</title>
+  <link href="../assets/style.css" media="all" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 
+</head>
+<body>
+
+  <div id="lightbox" style="display: none;">
+    <div id="lightbox-navigation"></div>
+    <div id="lightbox-slides"></div>
+  </div>
+
+  <div id="wrapper">
+    <div id="header">
+      <div class="inner">
+  <ul id="filters">
+    <li><span class="bug lab off" data-target="lab"><span class="letter"><a href="../index.html">Core Interaction</a></span></span></li>
+  </ul>
+
+  <ul id="navigation">
+      <li><a class="nounderline " href="../index.html">Schedule</a></li>
+   <!-- <li><a class="nounderline " href="../assignments.html">Assignments</a></li> -->
+    <li><a class="nounderline " href="../resources.html">Resources</a></li>
+  </ul>
+</div>
+    </div>
+<div id="content" class="">
+        
+
+      <div id="lecture">
+          
+          
+  <div class="heading">
+       <div class="week"><p>Lab<br>1</p></div>
+    <h2 class="bigSmall">
+      Getting Started
+    </h2>
+  </div>
+  <div class="content">
+      <div class="content-block text-block" id="text-block-73">
+  <h2 class="title">Setting up GitHub and Cloud9 Accounts</h2>
+  <p>Sign up for an account at <a href="http://github.com">GitHub</a>. Make sure your username matches your New School email address. For example, my email address is <code>rowlettr@newschool.edu</code>, so my GitHub username should be <code>rowlettr</code>. This allows us to link directly to your homepage from the students list at the bottom of this page.</p>
+
+</div>
+      <div class="content-block image-block" id="image-block-28">
+  
+
+  <div class="image-area">
+    <img alt="Signing up at GitHub" class="lightboxable" data-caption="Signing up at GitHub" data-hires="/uploads/image/attachment/115/lightbox_github_signup.png" data-id="lightbox-image-block-28" data-slide-index="0" src="../uploads/image/attachment/115/github_signup.png" />
+  </div>
+  <div class="caption">
+    Signing up at GitHub<br>
+  </div>
+</div>
+      <div class="content-block text-block" id="text-block-74">
+  
+  <p>After signing up you should receive an email from GitHub asking to verify your account. Click the link contained in the email and proceed to log in to GitHub. Next, create a new repository using the link under the <code>+</code> icon in the upper right of the GitHub homepage.</p>
+
+</div>
+      <div class="content-block image-block" id="image-block-29">
+  
+
+  <div class="image-area">
+    <img alt="Creating a new repository" class="lightboxable" data-caption="Creating a new repository" data-hires="/uploads/image/attachment/116/lightbox_github_create_repo1.png" data-id="lightbox-image-block-29" data-slide-index="1" src="../uploads/image/attachment/116/github_create_repo1.png" />
+  </div>
+  <div class="caption">
+    Creating a new repository<br>
+  </div>
+</div>
+      <div class="content-block text-block" id="text-block-75">
+  
+  <p>Name your repository <code>YOURUSERNAME.github.io</code>. For example, my username is <code>rowlettr</code>, so my repository should be named <code>rowlettr.github.io</code>.</p>
+
+</div>
+      <div class="content-block image-block" id="image-block-70">
+  
+
+  <div class="image-area">
+    <img alt="Naming your repository" class="lightboxable" data-caption="Naming your repository" data-hires="/uploads/image/attachment/117/lightbox_repo_name.png" data-id="lightbox-image-block-70" data-slide-index="2" src="../uploads/image/attachment/117/repo_name.png" />
+  </div>
+  <div class="caption">
+    Naming your repository
+  </div>
+</div>
+      <div class="content-block text-block" id="text-block-76">
+  
+  <p>Once your repository is created, navigate to <a href="https://c9.io/web/login">Cloud9</a> and click GitHub to sign in using your GitHub account.</p>
+
+</div>
+      <div class="content-block image-block" id="image-block-71">
+  
+
+  <div class="image-area">
+    <img alt="Logging in to Cloud9" class="lightboxable" data-caption="Logging in to Cloud9" data-hires="/uploads/image/attachment/118/lightbox_cloud9_login.png" data-id="lightbox-image-block-71" data-slide-index="3" src="../uploads/image/attachment/118/cloud9_login.png" />
+  </div>
+  <div class="caption">
+    Logging in to Cloud9
+  </div>
+</div>
+      <div class="content-block text-block" id="text-block-77">
+  
+  <p>In the left column of your Cloud9 dashboard, you should see the repository we just created. Click the repository&rsquo;s name, then click the green <code>Clone to Edit</code> button.</p>
+
+</div>
+      <div class="content-block image-block" id="image-block-72">
+  
+
+  <div class="image-area">
+    <img alt="Cloning our repository" class="lightboxable" data-caption="Cloning our repository" data-hires="/uploads/image/attachment/119/lightbox_clone_to_edit.png" data-id="lightbox-image-block-72" data-slide-index="4" src="../uploads/image/attachment/119/clone_to_edit.png" />
+  </div>
+  <div class="caption">
+    Cloning our repository
+  </div>
+</div>
+      <div class="content-block text-block" id="text-block-78">
+  
+  <p>Once the repository is cloned, click <code>Start Editing</code>. This should bring you to the Cloud9 development environment, with a file tree on the left, workspace on the right (this may be obscured by some Welcome options—you can simply minimize from the top right), and bash terminal on the bottom (more about this later).</p>
+
+</div>
+      <div class="content-block image-block" id="image-block-73">
+  
+
+  <div class="image-area">
+    <img alt="Our Cloud9 workspace" class="lightboxable" data-caption="Our Cloud9 workspace" data-hires="/uploads/image/attachment/120/lightbox_c9workspace.png" data-id="lightbox-image-block-73" data-slide-index="5" src="../uploads/image/attachment/120/c9workspace.png" />
+  </div>
+  <div class="caption">
+    Our Cloud9 workspace
+  </div>
+</div>
+      <div class="content-block text-block" id="text-block-79">
+  
+  <p>The first thing we should do is create an <code>index.html</code> file and push it back to GitHub. To do this, create a new file using the File &gt; New File menu item. This should open a new file in the editing pane on the right. Type a few words here and use File &gt; Save to save the file in Cloud9. The <code>index.html</code> filename tells our webserver to serve this page whenever someone visits our root URL (USERNAME.github.io).</p>
+
+</div>
+      <div class="content-block image-block" id="image-block-74">
+  
+
+  <div class="image-area">
+    <img alt="Saving our index file" class="lightboxable" data-caption="Saving our index file" data-hires="/uploads/image/attachment/121/lightbox_save_index.png" data-id="lightbox-image-block-74" data-slide-index="6" src="../uploads/image/attachment/121/save_index.png" />
+  </div>
+  <div class="caption">
+    Saving our index file
+  </div>
+</div>
+      <div class="content-block text-block" id="text-block-80">
+  
+  <p>Once we have saved our file, we need to <em>commit</em> our changes to GitHub. To do this, we use the terminal pane at the bottom, executing the following sequence:</p>
+
+<pre><code>git add .
+git commit -a -m &quot;Adding index file&quot;
+git push
+</code></pre>
+
+<p>Each commit should have a message attached to it. Typically this would describe the change made in the commit, so in this case I&rsquo;m using &ldquo;Adding index file&rdquo;.</p>
+
+<p>You might get a message along the lines of the following the first time you push back to GitHub:</p>
+
+<pre><code>The authenticity of host &#39;github.com (192.30.252.129)&#39; can&#39;t be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)?
+</code></pre>
+
+<p>Just type <code>yes</code> and hit enter. This should push the entire contents of your workspace up to GitHub. If the push was successful, you should see a message which reads similar to the following</p>
+
+<pre><code>Total 9 (delta 2), reused 0 (delta 0)
+To git@github.com:webdesign2/webdesign2.github.io.git
+   1a170ae..b67a674  master -&gt; master
+</code></pre>
+
+<p>Congrats! You should now be able to see your little bit of text on the web at <code>YOURUSERNAME.github.io</code>. If you see a 404 Error page, don&rsquo;t panic! Wait 15-20 minutes before checking again, GitHub occasionally takes a little time to sync the first push. Additional commits should sync more or less instantaneously.</p>
+
+</div>
+      <img class="centered" src="../assets/filecopy.gif"/>
+      
+      <div class="content-block text-block" id="text-block-6">
+  <h2 class="title">Basic HTML page and tags</h2>
+  <p>The basic HTML page structure is as follows:</p>
+
+</div>
+      <div class="content-block gist-block" id="gist-block-1">
+  
+
+  <script src="https://gist.github.com/griffiths/1657949.js"></script>
+</div>
+      <div class="content-block text-block" id="text-block-7">
+  
+  <p>Below are some common HTML tags that you can use to begin building your composition and index page.</p>
+
+</div>
+      <div class="content-block gist-block" id="gist-block-2">
+  
+  <script src="https://gist.github.com/ryanrowlett/86ec48b0668bc9c1b2b5.js"></script>
+</div>
+      
+      <!--
+      <div class="content-block image-block" id="image-block-32">
+  
+
+<div class="image-area">
+    <img alt="Cover of&amp;nbsp;der Dada vol1, 1919" class="lightboxable" data-caption="Cover of&amp;nbsp;der Dada vol1, 1919" data-hires="/uploads/image/attachment/51/lightbox_composition-der-dada.jpg" data-id="lightbox-image-block-32" data-slide-index="7" src="../uploads/image/attachment/51/composition-der-dada.jpg" />
+  </div>
+  <div class="caption">
+    Cover of&nbsp;<em>der Dada vol1</em>, 1919<br>
+  </div>
+</div>
+      <div class="content-block image-block" id="image-block-33">
+  
+
+  <div class="image-area">
+    <img alt="Kurt Schwitters, 1924" class="lightboxable" data-caption="Kurt Schwitters, 1924" data-hires="/uploads/image/attachment/52/lightbox_composition-merz.jpg" data-id="lightbox-image-block-33" data-slide-index="8" src="../uploads/image/attachment/52/composition-merz.jpg" />
+  </div>
+  <div class="caption">
+    Kurt Schwitters, 1924<br>
+  </div>
+</div>
+      <div class="content-block image-block" id="image-block-34">
+  
+
+  <div class="image-area">
+    <img alt="abcdefghijklmnopqrstuvwxyz, Emmett Williams, 1963" class="lightboxable" data-caption="abcdefghijklmnopqrstuvwxyz, Emmett Williams, 1963" data-hires="/uploads/image/attachment/53/lightbox_williams-abcdetc.jpg" data-id="lightbox-image-block-34" data-slide-index="9" src="../uploads/image/attachment/53/williams-abcdetc.jpg" />
+  </div>
+  <div class="caption">
+    <em>abcdefghijklmnopqrstuvwxyz</em>, Emmett Williams, 1963<br>
+  </div>
+</div>
+      <div class="content-block image-block" id="image-block-35">
+  
+
+  <div class="image-area">
+    <img alt="Josef Müller-Brockmann, 1972" class="lightboxable" data-caption="Josef Müller-Brockmann, 1972" data-hires="/uploads/image/attachment/54/lightbox_composition-Muller-Brockmann.jpeg" data-id="lightbox-image-block-35" data-slide-index="10" src="../uploads/image/attachment/54/composition-Muller-Brockmann.jpeg" />
+  </div>
+  <div class="caption">
+    Josef Müller-Brockmann, 1972<br>
+  </div>
+</div>
+      <div class="content-block image-block" id="image-block-36">
+  
+
+  <div class="image-area">
+    <img alt="The 389, 2011" class="lightboxable" data-caption="The 389, 2011" data-hires="/uploads/image/attachment/55/lightbox_composition-the-389.png" data-id="lightbox-image-block-36" data-slide-index="11" src="../uploads/image/attachment/55/composition-the-389.png" />
+  </div>
+  <div class="caption">
+    <a rel="nofollow" target="_blank" href="http://the389.com/">The 389</a>, 2011<br>
+  </div>
+</div>
+
+      <div class="note-block">
+        <div class="body">
+          <h2>Readings</h2>
+          <ol>
+            <li>
+              <a href="../uploads/image/attachment/56/lethem_ecstasy_of_influence.pdf" target="_blank">
+                The Ecstasy of Influence, Jonathan Lethem
+</a>            </li>
+          </ol>
+        </div>-->
+      </div>
+
+  </div>
+
+</div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div id="footer-inner">
+      <div class="course-info">
+
+  <div class="version-number">
+    <div class="git-reminder">
+      git add .<br />
+      git commit -am 'msg ...'<br />
+      git push
+    </div>
+  </div>
+</div>
+
+<div class="students">
+  <ul>
+      <li><a href="http://berkelj.github.io" target="_blank">Jaire Berkel</a></li>
+      <li><a href="http://duranv.github.io" target="_blank">Victoria Boyd Duran</a></li>
+      <li><a href="http://chauv.github.io" target="_blank">Vicky Chau</a></li>
+      <li><a href="http://corson.github.io" target="_blank">Nicole Corso</a></li>
+      <li><a href="http://ericsona.github.io" target="_blank">Amanda Ericson</a></li>
+      <li><a href="http://floresn.github.io" target="_blank">Natalia Flores</a></li>
+      <li><a href="http://jains.github.io" target="_blank">Sonali Jain</a></li>
+  </ul>
+</div>
+        
+<div class="students">
+  <ul>
+      <li><a href="http://kennedyp.github.io" target="_blank">Phoebe Kennedy</a></li>
+      <li><a href="http://mooreh.github.io" target="_blank">Haley Moore</a></li>
+      <li><a href="http://mussendent.github.io" target="_blank">Taylor Mussenden</a></li>
+      <li><a href="http://riportellav.github.io" target="_blank">Vincent Riportella</a></li>
+      <li><a href="http://speiserr.github.io" target="_blank">Rebecca Speiser</a></li>
+      <li><a href="http://stecks.github.io" target="_blank">Sabrina Steck</a></li>
+      <li><a href="http://suprianor.github.io" target="_blank">Richard Supriano</a></li>
+      <li><a href="http://yaoj.github.io" target="_blank">Jessie Yao</a></li>
+  </ul>
+</div>
+
+      </div>
+  </div>
+
+
+</body>
+</html>
