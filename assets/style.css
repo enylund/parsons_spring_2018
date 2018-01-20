@@ -301,7 +301,12 @@ h3 {
 #footer #footer-inner .students{
     width: 220px;
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+    color: white;
+}
+
+#footer #footer-inner .students a{
+    color: white;
 }
 
 
@@ -579,13 +584,13 @@ ul {
 
 #footer {
     padding: 15px 15px 100px 15px;
-    background: #f7f7f7;
+    background: black;
     z-index: 8;
     position: sticky;
 }
 
 #footer .git-reminder {
-    color: #333
+    color: white;
 }
 
 #footer .version-number {
