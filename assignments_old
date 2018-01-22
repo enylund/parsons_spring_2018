@@ -3,45 +3,55 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Core Interaction</title>
-  <link href="../assets/style.css" media="all" rel="stylesheet" />
+  <link href="assets/style.css" media="all" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="">
   <meta content="authenticity_token" name="csrf-param" />
 </head>
 <body>
 
- <div id="wrapper">
+  <div id="wrapper" class="">
     <div id="header">
       <div class="inner">
         <ul id="filters">
-          <li><span class="bug lab off" data-target="lab"><span class="letter"><a href="../index.html">Intro to Interactive</a></span></span></li>
+          <li><span class="bug lab off" data-target="lab"><span class="letter"><a href="index.html">Core Interaction</a></span></span></li>
         </ul>
         <ul id="navigation">
-          <li><a class="nounderline active" href="../index.html#lectures-wrapper">Schedule</a></li>
-          <li><a class="nounderline " href="../assignments.html">Assignments</a></li>
-          <li><a class="nounderline " href="../resources.html">Resources</a></li>
+          <li><a class="nounderline " href="assignments.html">Assignments</a></li>
+          <li><a class="nounderline " href="resources.html">Resources</a></li>
+          <li><a class="nounderline " href="library.html">Library</a></li>
         </ul>
       </div>
     </div> <!-- Closes header -->
 
     <div id="content">
-      <div id="resources">
-        <ul>
-          <li><h2>assignment</h2></li>
-          <li>
-              <p>present on 3 publications that you're considering to base your assignment on. create a pdf with the publications you have chosen and tell us, me and your classmates, about how you chose these publications.</p>
-              <br>
-              <p>mail the pdf that you want to use for the presentation to: <a href="mailto:dejongm@newschool.com">dejongm@newschool.edu</a> before class starts.</p>
-          </li>
-        </ul>
-        <ul>
-            <li><h2>readings</h2></li>
-            <li>watch the second hour of <a href="https://www.youtube.com/watch?v=GjR1lsem6tw" target="_blank">Websites 2001 - 2016 (Produced by LIMA), Rafaël Rozendaal</a></li>
-        </ul>
-      </div> <!-- Closes resources -->
-    </div> <!-- Closes content -->
-  </div> <!-- Closes wrapper -->
-
+      <div class="assignments">
+        <a class="band-button studio-section current" href="assets/assignments/1_studio_digital_reissue.pdf">
+          <span class="bug-wrapper"><span class="bug studio"><span class="letter">Studio</span></span></span>
+          Digital Reissue
+          <span class="date">Due 7/19</span>
+        </a>
+        <a class="band-button lab-section current" href="assets/assignments/1_lab_concrete_tweet.pdf">
+          <span class="bug-wrapper">
+            <span class="bug lab"><span class="letter">Lab</span></span>
+          </span>Concrete Tweet
+          <span class="date">Due 7/5</span>
+        </a>
+        <a class="band-button lab-section current" href="assets/assignments/2_lab_personal_archive.pdf">
+          <span class="bug-wrapper">
+            <span class="bug lab"><span class="letter">Lab</span></span>
+          </span>Personal Archive
+          <span class="date">Due 7/12</span>
+        </a>
+        <a class="band-button lab-section current" href="assets/assignments/2_studio_css_typeface_b.pdf">
+          <span class="bug-wrapper">
+            <span class="bug lab"><span class="letter">Studio</span></span>
+          </span>CSS Typeface
+          <span class="date">Due 8/2</span>
+        </a>
+      </div> <!-- Closes Assignments -->
+    </div>
+  </div>
   <div id="footer">
     <div id="footer-inner">
       <div class="course-info">
@@ -79,6 +89,5 @@
 
     </div> <!-- Closes footer-inner -->
   </div> <!-- Closes footer -->
-
 </body>
 </html>
