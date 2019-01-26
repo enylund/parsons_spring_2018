@@ -2,7 +2,7 @@
     font-family: 'union-bold';
     src: url('union/union_bold.eot');
     src: url('union/union_bold.eot?#iefix') format('embedded-opentype'),
-        url('unionunion_bold.woff') format('woff'),
+         url('unionunion_bold.woff') format('woff')
     font-weight: 900;
     font-style: normal;
 }
