@@ -1,10 +1,11 @@
 @font-face {
-    font-family: 'union-bold';
-    src: url('union/union_bold.eot');
-    src: url('union/union_bold.eot?#iefix') format('embedded-opentype'),
-         url('unionunion_bold.woff') format('woff')
-    font-weight: 900;
-    font-style: normal;
+  font-family: 'union-bold';
+  src: url('union/union_bold.eot');
+  src: url('union/union_bold.eot?#iefix') format('embedded-opentype'),
+       url('union/union_bold.woff') format('woff'),
+       url('union/union_bold.svg#union_bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 li p a {
@@ -97,7 +98,7 @@ video {
     font: inherit;
     vertical-align: baseline;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 article,
